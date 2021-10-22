@@ -2,6 +2,8 @@
 https://kafka.apache.org/quickstart
 
 # Baixe o kafka na raiz do projeto
+# Link https://kafka.apache.org/downloads
+# Caminho completo https://archive.apache.org/dist/kafka/2.8.0/kafka_2.12-2.8.0.tgz
 kafka_2.12-2.8.0.tgz
 
 # Construa a imagem
