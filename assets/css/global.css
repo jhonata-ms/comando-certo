@@ -10,3 +10,7 @@ body{
     height: 30vh;
     object-position:center 83.26%;
 }
+@font-face {
+    font-family: "Geo Oblique";
+    src: url("../fonts/geo-oblique.ttf") format("truetype");
+}
