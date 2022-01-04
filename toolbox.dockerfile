@@ -9,7 +9,7 @@ RUN apt install -y curl
 # vim
 RUN apt install -y vim
 
-# kubectl
-# RUN 
+# openssl
+RUN apt install -y openssl
 
 ENTRYPOINT ["sleep", "infinity"]
