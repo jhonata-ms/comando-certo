@@ -1,0 +1,23 @@
+---
+title: docker ps ⇒ Listando containers
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include navbar.html %}
+    <header>
+        <img class="background-header" src="/assets/img/fundo-docker.png">
+    </header>
+    <content>
+        <h1>{{page.title}}</h1>
+        <p>Para listar os containers que estão rodando:</p>
+        <pre><code class="language-bash">docker ps</code></pre>
+        <p>O comando acima lista os containers em execução. Para listar inclusive os containers parados nós podemos utilizar:</p>
+        <pre><code class="language-bash">docker ps -a</code></pre>
+        </pre>
+    </content>
+</body>
+</html>
