@@ -1,0 +1,10 @@
+{
+    "name": "Comando Certo",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+	"forwardPorts": [
+		
+	],
+    "postStartCommand": ""
+}
