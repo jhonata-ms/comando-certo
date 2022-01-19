@@ -14,7 +14,14 @@ title: docker build ⇒ Construir as imagens
     </header>
     <content>
         <h1>{{page.title}}</h1>
-        
+        <p>No parâmetro <b>-f</b> informe o <b>caminho do Dockerfile</b>.</p>
+        <p>No parâmetro <b>-t</b> informe o <b>nome que terá sua imagem</b> quando for "buildada".</p>
+        <p>No final do comando informe a pasta com código fonte do seu projeto.</p>
+        <p>Exemplo:</p>
+        <pre><code class="language-bash">docker build -f Dockerfile -t jhonata-ms/minha-aplicacao:latest /opt/pasta/do/projeto</code></pre>
+        <p><b>Caso já estiver na pasta do projeto</b>, que contém o Dockerfile e os códigos fontes, então pode resumir o comando, passando somente um <b>ponto</b> no lugar do path completo, veja:</p>
+        <pre><code class="language-bash">docker build -t jhonatams/minha-aplicacao:latest .</code></pre>
+        </pre>
     </content>
 </body>
 </html>
