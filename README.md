@@ -1,1 +1,1 @@
-# comando-certo
+# comando certo theme wordpress
