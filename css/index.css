@@ -1,0 +1,7 @@
+.cc-post-thumbnail {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 30vh;
+    object-position: center 83.26%;
+}
