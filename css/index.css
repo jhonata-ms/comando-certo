@@ -4,6 +4,7 @@
     width: 100%;
     height: 30vh;
     object-position: center 83.26%;
+    margin-bottom: 15px;
 }
 .cc-content{
     padding-bottom: 33vh;
@@ -11,10 +12,6 @@
     display: flex;
     flex-direction: column;
     margin: auto;
-}
-@font-face {
-    font-family: "Geo Oblique";
-    src: url("../fonts/geo-oblique.ttf") format("truetype");
 }
 navbar {display: flex;align-items: center;flex-direction: row;justify-content: space-between;height: 45px;padding-left: 10px;padding-right: 10px;}
 breadcrumb {display: flex;align-items: center;flex-direction: row;height: 70%;min-width: 0px;}

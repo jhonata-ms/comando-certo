@@ -2,3 +2,7 @@
 .link:hover {color: #000;background-color: #e7e7e7;border-radius: 3px;}
 .link img {width: 24px;height: 24px;margin-right: 7px;}
 .link span {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+@font-face {
+    font-family: "Geo Oblique";
+    src: url("../fonts/geo-oblique.ttf") format("truetype");
+}
