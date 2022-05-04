@@ -1,4 +1,11 @@
 services:
+  nexus:
+    container_name: nexus
+    image: sonatype/nexus3
+    volumes:
+      - .\nexus:/opt/files
+    ports:
+      - 8081:8081
   zookeeper:
     container_name: zookeeper
     image: confluentinc/cp-zookeeper:latest
@@ -31,3 +38,12 @@ services:
       dockerfile: toolbox.dockerfile
     volumes:
       - .\toolbox:/toolbox
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins:lts
+    volumes:
+      - .\jenkins\var\jenkins_home:/var/jenkins_home
+      - .\jenkins\external_files:/external_files
+    ports:
+      - 8080:8080
+      - 50000:50000
