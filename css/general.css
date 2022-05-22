@@ -6,3 +6,4 @@
     font-family: "Geo Oblique";
     src: url("../fonts/geo-oblique.ttf") format("truetype");
 }
+.code-block {margin-bottom: 0;}
