@@ -1,0 +1,6 @@
+{
+    "name": "Groovy",
+    "build": {
+        "dockerfile": "Dockerfile"
+    }
+}

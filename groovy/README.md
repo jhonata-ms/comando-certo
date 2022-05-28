@@ -1,0 +1,1 @@
+clear && groovy Testes.groovy
